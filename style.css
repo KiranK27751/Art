@@ -3,7 +3,7 @@ body
     background-color: lightgray;
 }
 div.fixed {
-  position: fixed;
+  position: absolute;
   width: 50%;
   bottom: 10px;
 } 
@@ -16,8 +16,8 @@ div.fixed {
 
 .nav
 {
-    position: fixed;
-    width: 110%;
+    position: absolute;
+    width: 100%;
     background-color: gold;
     height: 10%;
     transform: translate(-1%,-60%);
@@ -68,10 +68,11 @@ h1
     position: absolute;
     top: 80%;
     font-size: 20px;
-    background-color: lightgray;
+
     height: 50px;
     border-radius: 10px;
     border-color: gold;
+    text-decoration: none;
 }
 .learn:hover{
     background-color: black;
@@ -94,4 +95,44 @@ h1
     margin-left: 580px;
     color: white;
     
+}
+.box{
+    
+    position: absolute;
+    margin-top: 50%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.img2
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.show
+{
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.show:hover
+{
+    background-color: gold;
+    transition:0.8s ease;
+    height: 25px;
+    color: brown;
+}
+.box1
+{
+    position: absolute;
+    color: white;
+    top: 40%;
+    border: 1px solid black;
+    margin-left: 20%;
+    height: 30%;
+    width: 15%;
 }
