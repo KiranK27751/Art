@@ -29,24 +29,41 @@
     <div class="box" id="box">
         <img src="image2.jpg" class="img2">
         <div class = "box1" id="box1">
-            <p>hello</p>
+            <p id="p1"></p>
         </div>
-        <div class = "box2">
-        
+        <div class = "box2" id="box2">
+            <p id="p2"></p>
         </div>
     
-        <div class = "box3">
-        
+        <div class = "box3" id="box3">
+             <p id="p3"></p>
         </div>
-        <div class = "box4">
-        
+        <div class = "box4" id="box4">
+             <p id="p4"></p>
         </div>
-        <a href="#" class="show" onclick="tags()">Click here</a>
+        <a href="#show" class="show" onclick="tags()">Click here</a>
     </div>
     <script>
         function tags()
         {
-            document.getElementById("box1").display="";
+
+            document.getElementById("box1").style.background="grey";
+            document.getElementById("box1").style.opacity="0.7";
+            document.getElementById("p1").innerHTML="LOOK AROUND. GAME DEAD, RIVERS BLACK, LAND CHOKED WITH WEED. SKIES BLEEDING, RED AS BLOOD. FOR WHAT?1 YOUR KIND ARE BLIND. YOU SEE ONLY THE NOW. NEVER THE WILL BE. BUT SOON YOU WILL. WHEN ALL IS GONE, WHEN THERE ARE SO MANY MONKEY-CHILDREN THAT YOU MURDER FOR A SCRAP OF LAND, A DROP OF CLEAN WATER, THEN YOU WILL SEE.";
+                        
+              document.getElementById("box2").style.background="grey";
+            document.getElementById("box2").style.opacity="0.7";
+            document.getElementById("p2").innerHTML="IF YOU WANT TO SAVE THE HUMANKIND, YOU SHOULD FIRST TAKE CARE OF NATURE. IT'S THE LEGACY THAT WE LEAVE BEHIND, THAT BRINGS US HOPE, THAT'S FOR SURE!";
+            
+                 document.getElementById("box3").style.background="grey";
+            document.getElementById("box3").style.opacity="0.7";
+            document.getElementById("p3").innerHTML=" IF WE CAN GIVE TO URBAN PEOPLE THE PEASANT'S LOVE OF NATURE AND THEIR DEEP UNDERSTANDING ON THE MATTER OF NATURE'S IMPORTANCE, THE SALVATION OF OUR EARTH WILL BE EASIER!";
+            
+                 document.getElementById("box4").style.background="grey";
+            document.getElementById("box4").style.opacity="0.7";
+            document.getElementById("p4").innerHTML="IF WE DONT VISIT THE STARS THEN ONE DAY THE STARS WILL VISIT US";
+            
+            
         }
     </script>
     </body>
