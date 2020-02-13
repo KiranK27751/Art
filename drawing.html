@@ -28,17 +28,17 @@
     </div>
     <div class="box" id="box">
         <img src="image2.jpg" class="img2">
-        <div class = "box1" id="box1">
+        <div class = "box1" id="box1" onmouseover="color1()" onmouseout="back1()">
             <p id="p1"></p>
         </div>
-        <div class = "box2" id="box2">
+        <div class = "box2" id="box2" onmouseover="color2()" onmouseout="back2()">
             <p id="p2"></p>
         </div>
     
-        <div class = "box3" id="box3">
+        <div class = "box3" id="box3" onmouseover="color3()" onmouseout="back3()">
              <p id="p3"></p>
         </div>
-        <div class = "box4" id="box4">
+        <div class = "box4" id="box4" onmouseover="color4()" onmouseout="back4()">
              <p id="p4"></p>
         </div>
         <a href="#show" class="show" onclick="tags()">Click here</a>
@@ -65,7 +65,55 @@
             
             
         }
+        function color1()
+        {
+            document.getElementById("box1").style.backgroundColor="gold";
+            document.getElementById("box1").style.color="black";
+        }
+        function color2(){
+            
+            document.getElementById("box2").style.backgroundColor="gold";
+            document.getElementById("box2").style.color="black";
         
+        }
+        function color3()
+        {
+                
+            document.getElementById("box3").style.backgroundColor="gold";
+            document.getElementById("box3").style.color="black";
+
+        }
+        function color4()
+        {
+                        
+            document.getElementById("box4").style.backgroundColor="gold";
+            document.getElementById("box4").style.color="black";
+
+        }
+        function back1()
+        {
+            document.getElementById("box1").style.background="grey";
+            document.getElementById("box1").style.opacity="0.7";
+            document.getElementById("box1").style.color="white";
+        }
+        function back2()
+        {
+            document.getElementById("box2").style.background="grey";
+            document.getElementById("box2").style.opacity="0.7";
+            document.getElementById("box2").style.color="white";
+        }
+        function back3()
+        {
+            document.getElementById("box3").style.background="grey";
+            document.getElementById("box3").style.opacity="0.7";
+            document.getElementById("box3").style.color="white";
+        }
+        function back4()
+        {
+            document.getElementById("box4").style.background="grey";
+            document.getElementById("box4").style.opacity="0.7";
+            document.getElementById("box4").style.color="white";
+        }
     </script>
     </body>
 </html>
