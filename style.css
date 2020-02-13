@@ -131,7 +131,7 @@ h1
     position: absolute;
     color: white;
     top: 5%;
-    
+    transition: all 1.0s ease;
     margin-left: 5%;
     height: 50%;
     width: 15%;
@@ -141,7 +141,7 @@ h1
     position: absolute;
     color: white;
     top: 5%;
-    
+    transition: all 1.0s ease;
     margin-left: 30%;
     height: 50%;
     width: 15%;
@@ -151,7 +151,7 @@ h1
     position: absolute;
     color: white;
     top: 5%;
-    
+    transition: all 1.0s ease;
     margin-left: 55%;
     height: 50%;
     width: 15%;
@@ -161,7 +161,7 @@ h1
     position: absolute;
     color: white;
     top: 5%;
-    
+    transition: all 1.0s ease; 
     margin-left: 80%;
     height: 50%;
     width: 15%;
